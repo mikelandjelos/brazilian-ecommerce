@@ -1,0 +1,28 @@
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+oltp/db_data/*
+
+!oltp/db_data/init.txt
+
+etl/nifi_state/*
+etl/nifi_db/*
+etl/nifi_flowfile/*
+etl/nifi_content/*
+etl/nifi_provenance/*
+
+!etl/nifi_state/init.txt
+!etl/nifi_db/init.txt
+!etl/nifi_provenance/init.txt  
+!etl/nifi_flowfile/init.txt
+!etl/nifi_content/init.txt
